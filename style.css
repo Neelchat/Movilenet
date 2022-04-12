@@ -1,0 +1,58 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 25px;
+  }
+  .heading1
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+   float: none;
+  }
+  .heading2
+  {
+    font-size: 18px ;
+  }
+  .result
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    
+  }
+  .result span{
+    white-space: pre-line;
+  }
+.copy_right_footer {
+  text-align: center;
+  position: fixed;
+  font-size: 20px;
+  animation-name: a7;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-fill-mode: both;
+bottom: 0;
+width: 100%;
+}
+@keyframes a7 {
+  from{background-color:springgreen}
+  to{background-color: skyblue;}
+  from{font-size: 5px ;}
+  to{font-size: 15px;}
+}
+canvas {
+  border: 3px double royalblue;
+  animation-name: a8 ;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  margin-top: 125px;
+}
+
+@keyframes a8 {
+  from{box-shadow: 5px 5px 30px palevioletred ;}
+  to{box-shadow: 5px 5px 35px yellowgreen;}
+}
